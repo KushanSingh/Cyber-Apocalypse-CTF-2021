@@ -1,6 +1,6 @@
 # Cyber-Apocalypse-CTF-2021
 
-Writeup of the [Cyber Apocalypse CTF](https://www.hackthebox.eu/cyber-apocalypse-ctf-2021) event held by [Hack The Box](https://www.hackthebox.eu/).
+My writeup of the [Cyber Apocalypse CTF](https://www.hackthebox.eu/cyber-apocalypse-ctf-2021) event held by [Hack The Box](https://www.hackthebox.eu/).
 
 ### Categories
 1. [Web](web/README.md)
