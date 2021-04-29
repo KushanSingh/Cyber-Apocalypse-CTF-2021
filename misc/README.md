@@ -4,7 +4,6 @@
 ___
 1. [Aliencamp](#aliencamp)
 2. [Input as a service](#input-as-a-service)
-3. [Phasestream2](#phasestream2)
 
 ### Aliencamp
 > The Ministry of Galactic Defense now accepts human applicants for their specialised warrior unit, in exchange for their debt to be erased. We do not want to subject our people to this training and to be used as pawns in their little games. We need you to answer 500 of their questions to pass their test and take them down from the inside.
@@ -237,7 +236,7 @@ if __name__ == "__main__":
     sendrequest(r, '__import__("os").system("cat flag.txt")')
     res = getresponse(r)
 ```
-Executing the script we get the following output:
+Executing the script we get the flag.
 ```python
 2.7.18 (default, Apr 20 2020, 20:30:41)
 [GCC 9.3.0]
