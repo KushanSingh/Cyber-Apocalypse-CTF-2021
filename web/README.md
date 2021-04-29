@@ -71,7 +71,7 @@ After testing arbitary hostnames the command executes only upon entering a valid
 ![](images/web-caas-valid.png)
 
 Let's analyse the source code provided to understand this better.
-- `index.php`
+- index.php
     - It allows is to perform a `GET` or `POST` request to the routes `'/'` and `'/api/curl'` respectively, which in turn execute a method from `CurlController`.
 
 ```php
@@ -98,7 +98,7 @@ $response = $router->match();
 
 die($response);          
 ```
-- `CurlController.php`
+- CurlController.php
     - `index()` just routes the user to `index.html` page
     - `execute()` checks if the `ip` parameter of the POST request is set, creates a new command with the url value passed in the request body, excutes it and returns a JSON object. 
 ```php
@@ -121,7 +121,7 @@ class CurlController
     }
 }
 ```
-- `CommandModel.php`
+- CommandModel.php
     - the constructor intialiases the curl command.
     - `exec()` calls the inbuilt php `exec()` function to execute the command.
 ```php
