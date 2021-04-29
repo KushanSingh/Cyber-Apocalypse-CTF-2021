@@ -140,6 +140,7 @@ Open Cutter to analyse the file.
 - The highlighted sections just initialise each byte of the string `s1.`
 - Thus, `s1 = "3xtr4t3rR3stR14L5_VS_hum4n5"`.
 - It then calls `strcmp()` to check if `s1 == input_passphrase`.
+
 Rerun the program with the string obtained.
 ```shell
 $ ./passphrase           
