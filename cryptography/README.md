@@ -55,7 +55,7 @@ print("Flag = {}".format(ciphertext.decode('utf-8')))
 
 The given flag is `hex` encoded. Since it uses a repeated 5-byte XOR key and the flag format begins with `'CHTB{'`, we can obtain the 5-byte key  and the decrypted flag by the inherent properites of XOR (commutative, associative and inverse).
 Thus, `key = xor("CHTB{", decode_hex("2e313f2702"))` and the `decrypted_flag = repeated_xor(key, decode_hex("2e313f2702184c5a0b1e321205550e03261b094d5c171f56011904"))`
-```
+```python
 #!/usr/bin/python3
 
 def get_key(ciphertext, flag_format, num_bytes):
@@ -95,7 +95,7 @@ Decrypted flag = CHTB{u51ng_kn0wn_pl41nt3xt}
 > The aliens have learned of a new concept called “security by obscurity”. Fortunately for us they think it is a great idea and not a description of a common mistake. We’ve intercepted some alien comms and think they are XORing flags with a single-byte key and hiding the result inside 9999 lines of random data, Can you find the flag?
 
 Let's take a look at the contents of the zip file.
-```
+```shell
 $ unzip crypto_ps2.zip
 Archive:  crypto_ps2.zip
   inflating: output.txt
