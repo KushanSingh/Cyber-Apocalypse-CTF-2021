@@ -5,6 +5,8 @@ ___
 1. [Key Mission](#key-mission)
 
 ### Key Mission
+> The secretary of earth defense has been kidnapped. We have sent our elite team on the enemy's base to find his location. Our team only managed to intercept this traffic. Your mission is to retrieve secretary's hidden location
+
 This was one of my most favourite challenges from the event. We were given a pcap file of USB traffic.
 ![](images/key-mission.png)
 The following resources were really helpful in understanding and solving this challenge.
