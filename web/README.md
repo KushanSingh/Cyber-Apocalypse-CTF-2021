@@ -72,7 +72,7 @@ After testing arbitary hostnames the command executes only upon entering a valid
 
 Let's analyse the source code provided to understand this better.
 - index.php
-    - It allows is to perform a `GET` or `POST` request to the routes `'/'` and `'/api/curl'` respectively, which in turn execute a method from `CurlController`.
+    - It allows us to perform a `GET` or `POST` request to the routes `'/'` and `'/api/curl'` respectively, which in turn execute a method from `CurlController`.
 
 ```php
 <?php 
