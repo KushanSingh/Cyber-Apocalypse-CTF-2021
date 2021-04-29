@@ -23,7 +23,7 @@ $lang = ['en.php', 'qw.php'];
 ?>
 ```
 The above php snippet does the following:
-1. If the `GET` paramater is empty it loads either `en.php` or `qw.php` at random from the `pages` directory .
+1. If the `GET` parameter is empty it loads either `en.php` or `qw.php` at random from the `pages` directory .
 2. It tries to prevent a _directory traversal_ attack by replacing `'../'` with an empty string `''`.
     * A _directory traversal_ vulnerability allows an attacker to read an arbitrary file from the target system by specifying its path.
     * eg) `http://target.com/?q=/etc/passwd`
