@@ -58,7 +58,7 @@ CHTB{f4k3_fl4g_f0r_t3st1ng}
 
 Success! Running the same command on the URL provided will gives us the flag.
 
-``` CHTB{b4d_4li3n_pr0gr4m1ng} ```
+```Flag = CHTB{b4d_4li3n_pr0gr4m1ng} ```
 
 ___
 
@@ -158,4 +158,4 @@ CHTB{f4k3_fl4g_f0r_t3st1ng}
 
 Success! Running the same command on the URL provided will gives us the flag.
 
-```CHTB{f1le_r3trieval_4s_a_s3rv1ce}```
+```Flag = CHTB{f1le_r3trieval_4s_a_s3rv1ce}```
